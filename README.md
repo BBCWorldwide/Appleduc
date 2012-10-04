@@ -13,4 +13,4 @@ appledoc AppledocSettings.plist
 
 This will install the documentation into Xcode's documentation, allowing you to view it in Xcode's organizer. You can also retain the HTML files in the project directory by running:
 
-appledoc --keep-intermediate-files AppledocSettings.plist
+appledoc --output ~/Desktop/ --keep-intermediate-files AppledocSettings.plist
