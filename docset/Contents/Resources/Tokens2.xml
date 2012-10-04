@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DuckViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DuckViewController</TokenIdentifier>
+			<Abstract type="html">If you need to control views that have a Duck or two, you wanna use this.</Abstract>
+			<DeclaredIn>DuckViewController.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DuckViewController/setRowOfDucks:</TokenIdentifier>
+			<Abstract type="html">An array that contains the row of ducks.</Abstract>
+			<DeclaredIn>DuckViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *rowOfDucks</Declaration>
+			
+			
+			<Anchor>//api/name/rowOfDucks</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DuckViewController/rowOfDucks</TokenIdentifier>
+			<Abstract type="html">An array that contains the row of ducks.</Abstract>
+			<DeclaredIn>DuckViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *rowOfDucks</Declaration>
+			
+			
+			<Anchor>//api/name/rowOfDucks</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DuckViewController/setDuckRow:</TokenIdentifier>
+			<Abstract type="html">PETA opposes both cockfights and duck rows</Abstract>
+			<DeclaredIn>DuckViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *duckRow</Declaration>
+			
+			
+			<Anchor>//api/name/duckRow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DuckViewController/duckRow</TokenIdentifier>
+			<Abstract type="html">PETA opposes both cockfights and duck rows</Abstract>
+			<DeclaredIn>DuckViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *duckRow</Declaration>
+			
+			
+			<Anchor>//api/name/duckRow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DuckViewController/duck:duck:goose:</TokenIdentifier>
+			<Abstract type="html">This is a handy method for keeping children entertained.</Abstract>
+			<DeclaredIn>DuckViewController.h</DeclaredIn>			
+			
+			<Declaration>- (void)duck:(id)duck1 duck:(id)duck2 goose:(id)goose</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duck1</Name>
+					<Abstract type="html">Pat this duck on the head</Abstract>
+				</Parameter><Parameter>
+					<Name>duck2</Name>
+					<Abstract type="html">Pat this duck on the head also</Abstract>
+				</Parameter><Parameter>
+					<Name>goose</Name>
+					<Abstract type="html">RUN BITCH RUN</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/duck:duck:goose:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/DuckViewController/isWhatsGoodForGooseAlsoGoodForGander:</TokenIdentifier>
+			<Abstract type="html">Test to see if what&apos;s good for goose is good for gander.</Abstract>
+			<DeclaredIn>DuckViewController.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isWhatsGoodForGooseAlsoGoodForGander:(id)food</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>food</Name>
+					<Abstract type="html">Object to test against goose and gander</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">whether the saying holds true</Abstract></ReturnValue>
+			<Anchor>//api/name/isWhatsGoodForGooseAlsoGoodForGander:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

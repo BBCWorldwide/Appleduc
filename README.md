@@ -9,4 +9,8 @@ Document generation uses Appledoc, which you can download from https://github.co
 
 After you install the appledoc utility, open Terminal, navigate to the base project directory, and run:
 
-appledoc
+appledoc AppledocSettings.plist
+
+This will install the documentation into Xcode's documentation, allowing you to view it in Xcode's organizer. You can also retain the HTML files in the project directory by running:
+
+appledoc --keep-intermediate-files AppledocSettings.plist
