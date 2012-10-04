@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10B5787161D137F00E535BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10B5786161D137F00E535BB /* UIKit.framework */; };
+		B10B5789161D137F00E535BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10B5788161D137F00E535BB /* Foundation.framework */; };
+		B10B578B161D137F00E535BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10B578A161D137F00E535BB /* CoreGraphics.framework */; };
+		B10B5791161D137F00E535BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B10B578F161D137F00E535BB /* InfoPlist.strings */; };
+		B10B5793161D137F00E535BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B5792161D137F00E535BB /* main.m */; };
+		B10B5797161D137F00E535BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B5796161D137F00E535BB /* AppDelegate.m */; };
+		B10B5799161D137F00E535BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B10B5798161D137F00E535BB /* Default.png */; };
+		B10B579B161D137F00E535BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B10B579A161D137F00E535BB /* Default@2x.png */; };
+		B10B579D161D137F00E535BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B10B579C161D137F00E535BB /* Default-568h@2x.png */; };
+		B10B57A3161D137F00E535BB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10B57A1161D137F00E535BB /* ViewController.xib */; };
+		B10B57AB161D13B100E535BB /* DuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B57AA161D13B100E535BB /* DuckViewController.m */; };
+		B10B57AE161D13C400E535BB /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B57AD161D13C400E535BB /* Duck.m */; };
+		B10B57B0161D1A5100E535BB /* AppledocSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = B10B57AF161D1A5100E535BB /* AppledocSettings.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10B5782161D137F00E535BB /* Appleduc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appleduc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10B5786161D137F00E535BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B10B5788161D137F00E535BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B10B578A161D137F00E535BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B10B578E161D137F00E535BB /* Appleduc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Appleduc-Info.plist"; sourceTree = "<group>"; };
+		B10B5790161D137F00E535BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B10B5792161D137F00E535BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B10B5794161D137F00E535BB /* Appleduc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appleduc-Prefix.pch"; sourceTree = "<group>"; };
+		B10B5795161D137F00E535BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B10B5796161D137F00E535BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B10B5798161D137F00E535BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B10B579A161D137F00E535BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B10B579C161D137F00E535BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B10B57A2161D137F00E535BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B10B57A9161D13B100E535BB /* DuckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuckViewController.h; sourceTree = "<group>"; };
+		B10B57AA161D13B100E535BB /* DuckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuckViewController.m; sourceTree = "<group>"; };
+		B10B57AC161D13C400E535BB /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		B10B57AD161D13C400E535BB /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		B10B57AF161D1A5100E535BB /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppledocSettings.plist; path = ../AppledocSettings.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10B577F161D137F00E535BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10B5787161D137F00E535BB /* UIKit.framework in Frameworks */,
+				B10B5789161D137F00E535BB /* Foundation.framework in Frameworks */,
+				B10B578B161D137F00E535BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10B5777161D137F00E535BB = {
+			isa = PBXGroup;
+			children = (
+				B10B578C161D137F00E535BB /* Appleduc */,
+				B10B5785161D137F00E535BB /* Frameworks */,
+				B10B5783161D137F00E535BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B10B5783161D137F00E535BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10B5782161D137F00E535BB /* Appleduc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10B5785161D137F00E535BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10B5786161D137F00E535BB /* UIKit.framework */,
+				B10B5788161D137F00E535BB /* Foundation.framework */,
+				B10B578A161D137F00E535BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B10B578C161D137F00E535BB /* Appleduc */ = {
+			isa = PBXGroup;
+			children = (
+				B10B5795161D137F00E535BB /* AppDelegate.h */,
+				B10B5796161D137F00E535BB /* AppDelegate.m */,
+				B10B57A9161D13B100E535BB /* DuckViewController.h */,
+				B10B57AA161D13B100E535BB /* DuckViewController.m */,
+				B10B57AC161D13C400E535BB /* Duck.h */,
+				B10B57AD161D13C400E535BB /* Duck.m */,
+				B10B57A1161D137F00E535BB /* ViewController.xib */,
+				B10B578D161D137F00E535BB /* Supporting Files */,
+			);
+			path = Appleduc;
+			sourceTree = "<group>";
+		};
+		B10B578D161D137F00E535BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B10B57AF161D1A5100E535BB /* AppledocSettings.plist */,
+				B10B578E161D137F00E535BB /* Appleduc-Info.plist */,
+				B10B578F161D137F00E535BB /* InfoPlist.strings */,
+				B10B5792161D137F00E535BB /* main.m */,
+				B10B5794161D137F00E535BB /* Appleduc-Prefix.pch */,
+				B10B5798161D137F00E535BB /* Default.png */,
+				B10B579A161D137F00E535BB /* Default@2x.png */,
+				B10B579C161D137F00E535BB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B10B5781161D137F00E535BB /* Appleduc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10B57A6161D137F00E535BB /* Build configuration list for PBXNativeTarget "Appleduc" */;
+			buildPhases = (
+				B10B577E161D137F00E535BB /* Sources */,
+				B10B577F161D137F00E535BB /* Frameworks */,
+				B10B5780161D137F00E535BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Appleduc;
+			productName = Appleduc;
+			productReference = B10B5782161D137F00E535BB /* Appleduc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B10B5779161D137F00E535BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nick Lupinetti";
+			};
+			buildConfigurationList = B10B577C161D137F00E535BB /* Build configuration list for PBXProject "Appleduc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B10B5777161D137F00E535BB;
+			productRefGroup = B10B5783161D137F00E535BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B10B5781161D137F00E535BB /* Appleduc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B10B5780161D137F00E535BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10B5791161D137F00E535BB /* InfoPlist.strings in Resources */,
+				B10B5799161D137F00E535BB /* Default.png in Resources */,
+				B10B579B161D137F00E535BB /* Default@2x.png in Resources */,
+				B10B579D161D137F00E535BB /* Default-568h@2x.png in Resources */,
+				B10B57A3161D137F00E535BB /* ViewController.xib in Resources */,
+				B10B57B0161D1A5100E535BB /* AppledocSettings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B10B577E161D137F00E535BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10B5793161D137F00E535BB /* main.m in Sources */,
+				B10B5797161D137F00E535BB /* AppDelegate.m in Sources */,
+				B10B57AB161D13B100E535BB /* DuckViewController.m in Sources */,
+				B10B57AE161D13C400E535BB /* Duck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B10B578F161D137F00E535BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10B5790161D137F00E535BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B10B57A1161D137F00E535BB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10B57A2161D137F00E535BB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B10B57A4161D137F00E535BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B10B57A5161D137F00E535BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B10B57A7161D137F00E535BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appleduc/Appleduc-Prefix.pch";
+				INFOPLIST_FILE = "Appleduc/Appleduc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B10B57A8161D137F00E535BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appleduc/Appleduc-Prefix.pch";
+				INFOPLIST_FILE = "Appleduc/Appleduc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B10B577C161D137F00E535BB /* Build configuration list for PBXProject "Appleduc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10B57A4161D137F00E535BB /* Debug */,
+				B10B57A5161D137F00E535BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10B57A6161D137F00E535BB /* Build configuration list for PBXNativeTarget "Appleduc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10B57A7161D137F00E535BB /* Debug */,
+				B10B57A8161D137F00E535BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B10B5779161D137F00E535BB /* Project object */;
+}
